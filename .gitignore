@@ -1,0 +1,7 @@
+node_modules
+.DS_Store
+/dist
+/test
+/fz6m.vscode-virtual.cache
+/vsc-extension-quickstart.md
+/vscode-virtual-*.vsix

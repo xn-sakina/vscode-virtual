@@ -1,0 +1,9 @@
+{
+  "extension.vscode-virtual.command.info.title": "查看插件信息",
+  "extension.vscode-virtual.command.reload.title": "重载样式",
+  "extension.vscode-virtual.command.uninstall.title": "卸载插件",
+
+  "extension.vscode-virtual.enabled.description": "插件已开启",
+  "extension.vscode-virtual.styles.description": "自定义 VSCode 样式的 CSS 配置",
+  "extension.vscode-virtual.styles.error": "必须使用 'file://' 或 'https://' 协议开头"
+}

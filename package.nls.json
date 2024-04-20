@@ -1,0 +1,9 @@
+{
+  "extension.vscode-virtual.command.info.title": "View plugin info",
+  "extension.vscode-virtual.command.reload.title": "Reload styles",
+  "extension.vscode-virtual.command.uninstall.title": "Uninstall plugin",
+
+  "extension.vscode-virtual.enabled.description": "Plugin vscode-virtual enabled.",
+  "extension.vscode-virtual.styles.description": "Custom css files added to VSCode.",
+  "extension.vscode-virtual.styles.error": "The css file url must use 'https://' or 'file://' protocol"
+}

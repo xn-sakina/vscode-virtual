@@ -1,0 +1,9 @@
+{
+  "extension.vscode-virtual.command.info.title": "プラグインのインフォメーションを示す",
+  "extension.vscode-virtual.command.reload.title": "カスタムのスタイルをリロードする",
+  "extension.vscode-virtual.command.uninstall.title": "プラグインをアンインストールする",
+
+  "extension.vscode-virtual.enabled.description": "プラグインが起動された",
+  "extension.vscode-virtual.styles.description": "VSCodeのスタイルをカスタムする為のCSSの設定オプション",
+  "extension.vscode-virtual.styles.error": "この項目は 'https://' 或いは 'file://' のプロトコルで始める必要がある"
+}
