@@ -8,11 +8,13 @@ enum EPlatform {
 }
 
 export const getVscodeCssFile = () => {
-  tips.showDebug('require.main: ', require.main);
+  tips.showDebug('require.main: ', require.main)
   const mainFilename = require.main!.filename
   const vscodeInstallPath = vscode.env.appRoot
   tips.showDebug('vscodeInstallPath: ', vscodeInstallPath)
-  const base = mainFilename?.length ? dirname(require.main!.filename) : join(vscodeInstallPath, 'out')
+  const base = mainFilename?.length
+    ? dirname(require.main!.filename)
+    : join(vscodeInstallPath, 'out')
   tips.showDebug('base: ', base)
 
   const cssName = `workbench.${EPlatform.desktop}.main.css`

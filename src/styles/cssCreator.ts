@@ -33,9 +33,7 @@ export class CssCreator {
     }
     try {
       if (!existsSync(filepath)) {
-        throw new Error(
-          `The file does not exist.`,
-        )
+        throw new Error(`The file does not exist.`)
       }
       const content = await readFile(filepath, 'utf-8')
       // make sure the content is string
@@ -118,7 +116,7 @@ export class CssCreator {
     const filteredCssContents = cssContents.filter((i) => {
       return i?.content?.length
     }) as ICss[]
-    const allCssContent = filteredCssContents.map(i => i.content).join('\n')
+    const allCssContent = filteredCssContents.map((i) => i.content).join('\n')
     return trim(allCssContent)
   }
 
@@ -144,12 +142,15 @@ export class CssCreator {
   }
 
   private withMark(content: string) {
-    return '\n' + `
+    return (
+      '\n' +
+      `
 /*__vscode-virtual-extension-start__*/
 /*${EXTENSION_MARK}.${EXTENSION_VERSION}*/
 ${content}
 /*__vscode-virtual-extension-end__*/
 `.trimStart()
+    )
   }
 
   static async createCSS(config: IConfig) {

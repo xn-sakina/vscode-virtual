@@ -28,8 +28,8 @@ export async function activate(context: vscode.ExtensionContext) {
         }
 
         await styles.reload()
-      }
-    )
+      },
+    ),
   )
 
   context.subscriptions.push(

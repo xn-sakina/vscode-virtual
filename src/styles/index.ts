@@ -92,12 +92,22 @@ export class Styles implements Disposable {
   private async install(forceUpdate = false): Promise<void> {
     const cacheConfig = this.cacheConfig
     const currentUsageConfig = this.getConfig()
-    tips.showDebug('cacheConfig: ', cacheConfig, 'currentUsageConfig: ', currentUsageConfig)
+    tips.showDebug(
+      'cacheConfig: ',
+      cacheConfig,
+      'currentUsageConfig: ',
+      currentUsageConfig,
+    )
 
     if (!forceUpdate) {
       const cacheConfigString = JSON.stringify(cacheConfig)
       const currentUsageConfigString = JSON.stringify(currentUsageConfig)
-      tips.showDebug('cacheConfigString: ', cacheConfigString, 'currentUsageConfigString: ', currentUsageConfigString)
+      tips.showDebug(
+        'cacheConfigString: ',
+        cacheConfigString,
+        'currentUsageConfigString: ',
+        currentUsageConfigString,
+      )
       if (isEqual(cacheConfigString, currentUsageConfigString)) {
         // console.log(`config is not changed`)
         return
