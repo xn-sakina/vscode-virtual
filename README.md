@@ -35,7 +35,7 @@ Customize the VSCode start page logo:
 }
 ```
 
-<img src='https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe-2024/img/202404201638547.png' width='60%' />
+<img src='https://cdn.jsdelivr.net/gh/fz6m/Private-picgo@moe-2024/img/202404201638547.png' width='70%' />
 
 this image from: [`ProgrammingVTuberLogos`](https://github.com/Aikoyori/ProgrammingVTuberLogos/blob/main/VSCode/VSCode.png)
 
