@@ -70,9 +70,11 @@
     "watch-tests": "tsc -p . -w --outDir out",
     "pretest": "yarn run compile-tests && yarn run compile && yarn run lint",
     "test": "vscode-test",
-    "build": "vsce package --no-yarn"
+    "build": "vsce package --no-yarn",
+    "format": "biome format ./src --write"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.7.0",
     "@types/lockfile": "^1",
     "@types/lodash": "^4.17.0",
     "@types/mocha": "^10.0.6",
@@ -86,6 +88,7 @@
     "axios": "^1.6.8",
     "lockfile": "^1.0.4",
     "lodash": "^4.17.21",
+    "prettier": "^3.2.5",
     "rimraf": "^5.0.5",
     "stylis": "^4.3.1",
     "ts-loader": "^9.5.1",

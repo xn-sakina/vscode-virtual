@@ -5,3 +5,4 @@ node_modules
 /fz6m.vscode-virtual.cache
 /vsc-extension-quickstart.md
 /vscode-virtual-*.vsix
+/.yarn/install-state.gz

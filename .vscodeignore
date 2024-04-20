@@ -17,3 +17,5 @@ test/**
 .yarnrc.yml
 fz6m.vscode-virtual.cache
 vscode-virtual-*.vsix
+biome.json
+.prettierrc
